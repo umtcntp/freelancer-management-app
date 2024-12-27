@@ -33,8 +33,6 @@ export const fetchFreelancerComments = createAsyncThunk('fetchFreelancerComments
 });
 
 
-
-// Slice tanımı
 const freelancerSlice = createSlice({
     name: 'freelancers',
     initialState: {
@@ -43,7 +41,7 @@ const freelancerSlice = createSlice({
         selectedFreelancer: null as cardType | null,
         selectedFreelancerPosts: [] as any[],
         selectedPostComments: [] as any[],
-        isDetailView: false, // Seçilen freelancer
+        isDetailView: false,
         searchName: '',
         minJobs: null as number | null,
         maxJobs: null as number | null
