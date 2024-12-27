@@ -8,10 +8,10 @@ This project is a web application that allows users to view a list of freelancer
 - **Search and Filter**: Search freelancers by name and filter by completed job count.
 - **Save and Remove Freelancers**: Save freelancers to your personal list and remove them when needed.
 - **Detailed View**: View detailed information about each freelancer, including their job history and contact details.
-- **Responsive UI**: The app is responsive and works on both desktop and mobile devices.
 
 ## Technologies Used
 
+- **TypeScript**: A superset of JavaScript that adds static types.
 - **React**: A JavaScript library for building user interfaces.
 - **Redux Toolkit**: A toolset for managing global state in React applications.
 - **Material UI**: A library of React components that implement Google's Material Design.
