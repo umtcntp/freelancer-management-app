@@ -9,7 +9,7 @@ import React from 'react';
 
 function FreelancerCardList() {
     const { cards, savedFreelancers, searchName, minJobs, maxJobs, isDetailView } = useSelector((state: RootState) => state.card);
-    const [showSaved, setShowSaved] = React.useState(false); // Kaydedilen freelancer'ları gösterme durumu
+    const [showSaved, setShowSaved] = React.useState(false);
     const dispatch = useDispatch();
 
     const freelancersToDisplay = showSaved ? savedFreelancers : cards;
